@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: navy;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo */
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navbar Links */
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+    margin-left: 25px;
+
+    font-size: 16px;
+}
+
+
+/* Navbar Hover */
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 400px;
+
+    margin: 50px auto;
+
+    padding: 30px 20px;
+
+    background-color: lightgray;
+
+    border: 2px solid black;
+
+    text-align: center;
+}
+
+
+/* Heading */
+
+h1 {
+    color: navy;
+    font-size: 30px;
+}
+
+
+/* Section Heading */
+
+h2 {
+    color: green;
+    font-size: 23px;
+}
+
+
+/* Paragraph */
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Image */
+
+img {
+    width: 105px;
+
+    height: auto;
+
+    border: 3px solid black;
+}
+
+
+/* List */
+
+ul {
+    text-align: left;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+
+    background-color: navy;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    margin-top: 10px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+
+/* Button Hover */
+
+.button:hover {
+    background-color: green;
+}
+
+
+/* Form */
+
+input,
+textarea {
+    width: 80%;
+
+    padding: 10px;
+
+    border: 1px solid black;
+
+    border-radius: 4px;
+}
+
+
+textarea {
+    height: 100px;
+}
